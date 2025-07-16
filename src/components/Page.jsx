@@ -6,10 +6,8 @@ export default function Page() {
   const { theme } = React.useContext(ThemeContext);
 
   return (
-    //   <ThemeContextProvider>
     <div id="app" className={theme}>
       <Header />
-
       <article>
         <h2>React Course</h2>
         <p>
@@ -17,6 +15,5 @@ export default function Page() {
         </p>
       </article>
     </div>
-    // </ThemeContextProvider>
   );
 }

@@ -11,7 +11,6 @@ export default function ThemeContextProvider({ children }) {
       setTheme("light");
     }
   }
-  // Todo: Add the component code (incl. dynamic context value)
 
   const themeCtx = {
     theme,
